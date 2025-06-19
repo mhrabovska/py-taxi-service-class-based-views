@@ -7,7 +7,7 @@
 <body>
   <h2>Drivers</h2>
   <ul>
-    {% for driver in drivers %}
+    {% for driver in driver_list %}
       <li>{{ driver.username }} - {{ driver.first_name }} {{ driver.last_name }}</li>
     {% endfor %}
   </ul>

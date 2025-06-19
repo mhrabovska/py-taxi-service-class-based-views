@@ -7,7 +7,7 @@
 <body>
   <h2>Cars</h2>
   <ul>
-    {% for car in cars %}
+    {% for car in cars_list %}
       <li>{{ car.model }} - {{ car.manufacturer.name }}</li>
     {% endfor %}
   </ul>
